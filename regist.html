@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>列表页注册页</title>
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 连接我们的公共样式 -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- 连接我们的列表页页样式 -->
+    <link rel="stylesheet" href="css/regist.css">
+    <!-- 引用我们的favicon图标 -->
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+    <!-- header头部模块 start -->
+    <header>
+        <div class="w">
+            <!-- logo模块 h1>a href:index.html title:品优购>品优购 -->
+            <div class="logo">
+                <h1><a href="index.html" title="品优购商城-专业的综合网上购物商城">品优购商城</a></h1>
+            </div>
+        </div>
+    </header>
+    <!-- header头部模块 end -->
+    <!-- 注册内容模块 start -->
+    <div class="re_con w">
+        <div class="con_hd">
+            <span>注册新用户</span>
+            <i>我有账号，去<a href="login.html" class="font-red">登录</a></i>
+        </div>
+        <div class="con_bd">
+            <ul>
+                <li><label for="tel">手机号：</label><input type="tel" id="tel">
+                    <i class="error"><img src="images/error.jpg" alt="">手机号码格式不正确，请重新输入</i>
+                </li>
+                <li>
+                    <label for="ym">短信验证码：</label><input type="text" id="ym">
+                </li>
+                <li>
+                    <label for="password">登录密码：</label><input type="password" id="password">
+                    <i class="error"><img src="images/error.jpg" alt="">密码不少于6位数，请重新输入</i>
+                </li>
+                <li class="sf">
+                    <i>安全程度</i>
+                    <i class="red smbox">弱</i>
+                    <i class="green smbox">中</i>
+                    <i class="yellow smbox">强</i>
+                </li>
+                <li class="nomt">
+                    <label for="repassword">登录密码：</label><input type="password" id="repassword">
+                    <i class="error"><img src="images/error.jpg" alt="">密码不一致，请重新输入</i>
+                </li>
+                <li class="xy">
+                    <input type="checkbox"><span>同意协议并注册<a href="#">《知果果用户协议》</a></span>
+                </li>
+                <li><button>完成注册</button></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 注册内容模块 end -->
+    <!-- footer页尾模块 start -->
+    <div class="footer w">
+        <!-- 版权模块 -->
+        <div class="footer_copyright">
+            <div class="links">
+                <ul>
+                    <li><a href="#">关于我们</a>|</li>
+                    <li><a href="#">联系我们</a>|</li>
+                    <li><a href="#">联系客服</a>|</li>
+                    <li><a href="#">商家入驻</a>|</li>
+                    <li><a href="#">营销中心</a>|</li>
+                    <li><a href="#">手机品优购</a>|</li>
+                    <li><a href="#">友情链接</a>|</li>
+                    <li><a href="#">销售联盟</a>|</li>
+                    <li><a href="#">品优购社区</a>|</li>
+                    <li><a href="#">品优购公益</a>|</li>
+                    <li><a href="#">English Site</a>|</li>
+                    <li><a href="#">Contact U</a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>
+                    地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱:
+                    zhanghj+itcast.cn <br>
+                    京ICP备08001421号京公网安备110108007702
+                </p>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- footer页尾模块 end -->
+</body>
+
+</html>

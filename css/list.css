@@ -1,0 +1,170 @@
+/* logo模块 */
+header .logo i {
+    position: absolute;
+    top: 10px;
+    left: 185px;
+    width: 1px;
+    height: 30px;
+    background-color: #B1191A;
+}
+
+header .logo img {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+}
+
+/* nav模块 高45 */
+.sk_left {
+    width: 360px;
+}
+
+.sk_left ul li {
+    float: left;
+}
+
+.sk_left ul li a {
+    display: block;
+    width: 120px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+}
+
+.sk_right {
+    width: 840px;
+}
+
+.sk_right ul li {
+    float: left;
+}
+
+.sk_right ul li a {
+    display: block;
+    width: 93px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.sk_right ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+    color: #828282;
+}
+
+/* banner模块 */
+.banner {
+    height: 120px;
+    text-align: center;
+    background: url(../images/skbg.png) no-repeat;
+}
+
+.banner h2 {
+    width: 100px;
+    margin: 0 auto;
+    padding: 22px 0 17px 0;
+    font-size: 24px;
+    color: #C81523;
+}
+
+.banner h2 img {
+    margin-right: 5px;
+}
+
+.banner p {
+    font-size: 16px;
+    color: #000000;
+}
+
+/* sk_cont模块 */
+.sk_cont {
+    margin-top: 20px;
+}
+
+/* 这里如果不加边框图片会抖动 */
+.sk_cont ul li {
+    float: left;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+    margin: 0 13px 15px 0;
+}
+
+.sk_cont ul li:nth-child(4n) {
+    margin: 0 0 15px 0;
+}
+
+.sk_cont ul li:hover {
+    border: 1px solid #EA666A;
+}
+
+.sk_cont ul li .image {
+    height: 295px;
+    text-align: center;
+}
+
+.sk_cont ul li .text {
+    height: 110px;
+    padding: 0 10px;
+}
+
+.sk_cont ul li .text p {
+    font-size: 14px;
+}
+
+.sk_cont ul li .text h4 {
+    margin-top: 6px;
+    color: #E60012;
+    font-size: 22px;
+}
+
+.sk_cont ul li .text h4 i {
+    margin-left: 7px;
+    font-weight: normal;
+    text-decoration: line-through;
+    color: #7D7D7D;
+    font-size: 14px;
+}
+
+.sk_cont ul li .text h4 .red {
+    color: #E60012;
+}
+
+.sk_cont ul li .text span {
+    display: block;
+    margin-top: 2px;
+    font-size: 14px;
+}
+
+.sk_cont ul li .text span i {
+    color: #E60012;
+}
+
+.sk_cont ul li .text span .jindu {
+    display: inline-block;
+    width: 120px;
+    height: 10px;
+    margin: 0 10px;
+    border: 1px solid #E60012;
+    border-radius: 6.5px;
+}
+
+.sk_cont ul li .text span .jindu::before {
+    content: '';
+    display: block;
+    height: 9px;
+    width: 90px;
+    border-radius: 6.5px;
+    background-color: #E60012;
+}
+
+.sk_cont ul li button {
+    width: 100%;
+    height: 55px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 55px;
+    background-color: #B1191A;
+}

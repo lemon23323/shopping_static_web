@@ -1,0 +1,140 @@
+.login_banner {
+    height: 450px;
+    background: url(../imagedl/bigbg.png) no-repeat;
+}
+
+.login_banner .w {
+    position: relative;
+    height: 450px;
+}
+
+.login_banner .w .login {
+    position: absolute;
+    right: 0;
+    top: 225px;
+    margin-top: -182.5px;
+    padding: 15px 35px;
+    width: 380px;
+    height: 365px;
+    background-color: #fff;
+}
+
+.login_banner .w .login .tlogin a {
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+    color: #6D6D6D;
+    line-height: 35px;
+}
+
+.login_banner .w .login .tlogin a:hover {
+    color: #CF3B42;
+}
+
+.login_banner .w .login .tlogin .left {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.login_banner .w .login .tlogin .right {
+    padding-right: 10px;
+    text-align: right;
+}
+
+.login_banner .w .login p {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.login_banner .w .login .inp {
+    overflow: hidden;
+    width: 300px;
+    height: 40px;
+    margin-top: 17px;
+    border: 1px solid #D6D6D6;
+}
+
+.login_banner .w .login .inp:hover {
+    border: 1px solid #A8D7F4;
+}
+
+.login_banner .w .login .inp img {
+    float: left;
+    width: 38px;
+    height: 38px;
+    vertical-align: top;
+}
+
+.login_banner .w .login .inp input {
+    float: left;
+    width: 260px;
+    height: 38px;
+    color: #B4B4B4;
+    line-height: 40px;
+    padding-left: 10px;
+}
+
+.login_banner .w .login .aufo {
+    display: block;
+    height: 20px;
+    width: 300px;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.login_banner .w .login .aufo .auto {
+    float: left;
+    height: 20px;
+    color: #B4B4B4;
+}
+
+.login_banner .w .login .aufo .auto .imgdui {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border: 1px solid #B4B4B4;
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-right: 3px;
+    background: url(../imagedl/dui.png) no-repeat center center;
+    cursor: pointer;
+}
+
+.login_banner .w .login .aufo .forget {
+    float: right;
+    margin-right: 3px;
+    color: #353535;
+    cursor: pointer;
+}
+
+.login_banner .w .login button {
+    width: 300px;
+    height: 40px;
+    margin-top: 15px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: #CA111A;
+}
+
+.login_banner .w .login .bottom {
+    display: block;
+    width: 300px;
+    height: 54px;
+    margin-top: 14px;
+}
+
+.login_banner .w .login .bottom img {
+    float: left;
+}
+
+.login_banner .w .login .bottom a {
+    float: right;
+    height: 54px;
+    margin-right: 2px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #086FAA;
+}

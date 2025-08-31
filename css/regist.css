@@ -1,0 +1,147 @@
+header .w {
+    height: 70px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #B31610;
+}
+
+.re_con {
+    height: 520px;
+    margin-top: 20px;
+    border: 1px solid #DEDEDE;
+}
+
+.re_con .con_hd {
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #DEDEDE;
+    background-color: #ECECEC;
+}
+
+.re_con .con_hd span {
+    float: left;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.re_con .con_hd i {
+    float: right;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.re_con .con_bd {
+    height: 485px;
+    padding: 35px 300px 40px 340px;
+}
+
+.re_con .con_bd ul {
+    width: 600px;
+    height: 400px;
+}
+
+.re_con .con_bd ul li {
+    width: 560px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+.re_con .con_bd ul li label {
+    display: inline-block;
+    width: 90px;
+    height: 40px;
+    font-size: 14px;
+    color: #5A5A5A;
+    text-align: right;
+}
+
+.re_con .con_bd ul li input {
+    width: 240px;
+    height: 35px;
+    vertical-align: middle;
+    border: 1px solid #A8A8A8;
+}
+
+.re_con .con_bd ul li .error {
+    display: inline-block;
+    height: 40px;
+    color: #E23433;
+}
+
+.re_con .con_bd ul li .error img {
+    width: 23px;
+    height: 25px;
+    margin-right: 2px;
+}
+
+.re_con .con_bd ul .sf {
+    width: 167px;
+    height: 15px;
+    line-height: 15px;
+    margin-top: 10px;
+    margin-left: 162px;
+}
+
+.re_con .con_bd ul .sf i {
+    display: inline-block;
+    color: #B7B7B7;
+    margin-right: 3px;
+}
+
+.re_con .con_bd ul .sf .smbox {
+    width: 35px;
+    margin-right: 0;
+    padding: 0 5px;
+    color: #fff;
+    text-align: center;
+}
+
+.re_con .con_bd ul .sf .red {
+    background-color: #E00900;
+}
+
+.re_con .con_bd ul .sf .green {
+    background-color: #39BA36;
+}
+
+.re_con .con_bd ul .sf .yellow {
+    background-color: #F99200;
+}
+
+.re_con .con_bd ul .nomt {
+    margin-top: 15px;
+}
+
+.re_con .con_bd ul .xy {
+    width: 240px;
+    height: 20px;
+    line-height: 20px;
+    margin: 40px 0 0 90px;
+}
+
+.re_con .con_bd ul .xy input {
+    width: 12px;
+    height: 12px;
+}
+
+.re_con .con_bd ul .xy span {
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.re_con .con_bd ul .xy span a {
+    padding-left: 10px;
+    color: #0FA5EA;
+
+}
+
+.re_con .con_bd ul button {
+    width: 200px;
+    height: 35px;
+    margin-left: 95px;
+    margin-top: 25px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #CA111A;
+    color: #fff;
+}
