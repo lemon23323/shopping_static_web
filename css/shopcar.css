@@ -1,0 +1,448 @@
+.sc_cont h3 {
+    height: 30px;
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #C81623;
+}
+
+/* 商品列表模块 */
+.sc_cont .sc_splist {
+    height: 1220px;
+    padding-top: 15px;
+}
+
+.sc_cont .sc_splist i {
+    display: inline-block;
+}
+
+.sc_cont .sc_splist input[type=checkbox] {
+    height: 15px;
+    width: 15px;
+    margin-left: 5px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.sc_cont .sc_splist .list_top1 {
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    color: #666666;
+    border: 1px solid #DDDDDD;
+}
+
+.sc_cont .sc_splist .list_top1 .w250 {
+    width: 250px;
+    text-align: left;
+}
+
+.sc_cont .sc_splist .list_top1 .w355 {
+    width: 355px;
+}
+
+.sc_cont .sc_splist .w125 {
+    width: 125px;
+}
+
+.sc_cont .sc_splist .w170 {
+    width: 170px;
+}
+
+.sc_cont .sc_splist .list_top1 .ml {
+    padding-left: 35px;
+}
+
+.sc_cont .sc_splist .w160 {
+    width: 160px;
+}
+
+.sc_cont .sc_splist .w105 {
+    width: 105px;
+}
+
+.sc_cont .sc_splist .greytop {
+    height: 48px;
+    padding-top: 15px;
+    line-height: 30px;
+    border-bottom: 2px solid #DDDDDD;
+}
+
+.sc_cont .sc_splist .greytop ul .fl i {
+    width: 55px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #C81623;
+}
+
+.sc_cont .sc_splist .greytop ul .fr span {
+    color: #666666;
+    margin-right: 35px;
+}
+
+.sc_cont .sc_splist .greytop ul .fr i {
+    color: #C81623;
+}
+
+.sc_cont .sc_splist .splist {
+    height: 660px;
+    margin-top: 15px;
+    border: 1px solid #DDDDDD;
+}
+
+.sc_cont .sc_splist .splist i {
+    vertical-align: top;
+}
+
+.sc_cont .sc_splist .splist ul>li {
+    padding: 10px 0;
+    text-align: left;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.sc_cont .sc_splist .splist ul .sp1 {
+    height: 110px;
+}
+
+.sc_cont .sc_splist .splist ul .sp1 .sp_1_com {
+    width: 365px;
+    height: 100%;
+}
+
+.sc_cont .sc_splist ul input[class=top] {
+    vertical-align: top;
+}
+
+.sc_cont .sc_splist .splist ul .sp_1_com img {
+    height: 90px;
+    vertical-align: top;
+}
+
+.sc_cont .sc_splist .splist ul .sp_1_com span {
+    display: inline-block;
+    margin-left: 5px;
+    color: #393939;
+    line-height: 24px;
+}
+
+.sc_cont .sc_splist .splist ul .sp_1_com span i {
+    color: #999999;
+}
+
+.sc_cont .sc_splist .splist ul .sp_1_com span i img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.sc_cont .sc_splist .splist ul .sp_2_com {
+    width: 245px;
+}
+
+.sc_cont .sc_splist .splist ul .sp_2_com span {
+    color: #393939;
+}
+
+.sc_cont .sc_splist .sp_dj {
+    color: #393939;
+    font-size: 14px;
+}
+
+.sc_cont .sc_splist .sp_sl {
+    height: 50px;
+    margin-top: -3px;
+    line-height: 28px;
+}
+
+.sc_cont .sc_splist .sp_sl button {
+    height: 30px;
+    width: 30px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #E2E2E2;
+}
+
+.sc_cont .sc_splist .sp_sl .grey {
+    color: #696969;
+}
+
+.sc_cont .sc_splist .sp_sl .red {
+    color: #C81623;
+}
+
+.sc_cont .sc_splist .sp_sl .one {
+    width: 40px;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    color: #393939;
+    line-height: 28px;
+    border-top: 1px solid #E2E2E2;
+    border-bottom: 1px solid #E2E2E2;
+}
+
+.sc_cont .sc_splist .sp_sl .botfot {
+    display: block;
+    width: 25px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 38px;
+    color: #A9A9A9;
+}
+
+.sc_cont .sc_splist .sp_xj {
+    font-size: 14px;
+    color: #333333;
+    font-weight: 700;
+}
+
+.sc_cont .sc_splist .sp_cz {
+    cursor: pointer;
+}
+
+.sc_cont .sc_splist .splen {
+    height: 205px;
+}
+
+.sc_cont .sc_splist .splen .spl_top {
+    vertical-align: top;
+}
+
+.sc_cont .sc_splist .splen .spl_top .change {
+    width: 45px;
+    height: 20px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 18px;
+    color: #D75760;
+    border: 1px solid #D75760;
+}
+
+.sc_cont .sc_splist .splen .spl_top .t1 {
+    margin-left: 15px;
+}
+
+.sc_cont .sc_splist .splen .spl_top .t1::after {
+    content: '\e920';
+    font-family: 'icomoon';
+    vertical-align: middle;
+    margin-left: 5px;
+    font-style: 20px;
+    color: #999999;
+}
+
+.sc_cont .sc_splist .splen .spl_top .t2 {
+    display: inline-block;
+    width: 305px;
+    padding-left: 15px;
+}
+
+.sc_cont .sc_splist .splen .spl_top .t2 .check {
+    width: 70px;
+    height: 20px;
+    margin-right: 5px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #C81623;
+}
+
+.sc_cont .sc_splist .splen .spl_top .t2::after {
+    content: '\e920';
+    font-family: 'icomoon';
+    vertical-align: middle;
+    margin-left: 5px;
+    font-style: 20px;
+    color: #999999;
+}
+
+.sc_cont .sc_splist .splen .spl_bottom img {
+    width: 85px;
+    vertical-align: top;
+}
+
+.sc_cont .sc_splist .splen .spl_bottom span {
+    display: inline-block;
+    line-height: 20px;
+    color: #666666;
+}
+
+.sc_cont .sc_splist .splen .spl_bottom span .ml20 {
+    margin-left: 20px;
+}
+
+.sc_cont .sc_splist .splen .spl_bottom span .ml35 {
+    margin-left: 45px;
+}
+
+.sc_cont .sc_splist .splen .spl_bottom .zeng {
+    display: block;
+    margin-top: 15px;
+}
+
+.sc_cont .sc_splist .splen .spl_bottom p {
+    margin-left: 60px;
+    color: #A9A9A9;
+}
+
+.sc_cont .sc_splist .splen .spl_bottom p i {
+    padding-left: 25px;
+}
+
+.sc_cont .sc_splist .splist ul .sp3 {
+    background-color: #FEEDEF;
+}
+
+.sc_cont .sc_splist .splist ul .sp3 .sp3_1 {
+    width: 315px;
+}
+
+.sc_cont .sc_splist .splist ul .sp3 .sp3_2 {
+    width: 295px;
+}
+
+.sc_cont .sc_splist .splist ul .sp4 .sp4_1 {
+    width: 365px;
+}
+
+.sc_cont .sc_splist .splist ul .sp4 .sp4_2 {
+    width: 245px;
+}
+
+.sc_cont .sc_splist .splist ul .sp5 .sp5_1 {
+    width: 365px;
+}
+
+.sc_cont .sc_splist .splist ul .sp5 .sp5_2 {
+    width: 245px;
+}
+
+.sc_cont .sc_splist .splist ul .sp5 {
+    border: 0;
+}
+
+/* 结算模块 */
+.sc_cont .sc_splist .end .end_top {
+    height: 30px;
+    margin-top: 15px;
+    line-height: 26px;
+    border-bottom: 2px solid #DDDDDD;
+}
+
+.sc_cont .sc_splist .end .end_top h4 {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: normal;
+    color: #3E3E3E;
+}
+
+.sc_cont .sc_splist .end .end_cont {
+    height: 205px;
+    margin-top: 20px;
+    padding: 10px 0;
+    text-align: left;
+    border: 1px solid #E2E2E2;
+}
+
+.sc_cont .sc_splist .end .end_cont i {
+    vertical-align: top;
+}
+
+.sc_cont .sc_splist .end .end_cont .edcobottom .t .ml50 {
+    margin-left: 70px;
+}
+
+.sc_cont .sc_splist .end .end_cont .edcobottom .zeng {
+    margin-top: 30px;
+}
+
+.sc_cont .sc_splist .end .end_jiesuan {
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+    border: 1px solid #DDDDDD;
+}
+
+.sc_cont .sc_splist .end .end_jiesuan i {
+    color: #6E6E6E;
+}
+
+.sc_cont .sc_splist .end .end_jiesuan .fl i {
+    cursor: pointer;
+}
+
+.sc_cont .sc_splist .end .end_jiesuan .fl span i {
+    margin-left: 10px;
+}
+
+.sc_cont .sc_splist .end .end_jiesuan .fr span {
+    display: inline-block;
+    width: 310px;
+    height: 40px;
+    vertical-align: middle;
+    line-height: 18px;
+}
+
+.sc_cont .sc_splist .end .end_jiesuan .fr span p i {
+    padding: 0 5px;
+}
+
+.sc_cont .sc_splist .end .end_jiesuan .fr span p .red_jiage {
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: 700;
+    color: #E60D1D;
+}
+
+.sc_cont .sc_splist .end .end_jiesuan .fr span .ml160 {
+    margin-left: 160px;
+}
+
+.sc_cont .sc_splist .end .end_jiesuan .fr button {
+    width: 110px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #E60012;
+    color: #fff;
+    font-size: 16px;
+}
+
+.sc_cont .sc_splist .end .end_footer {
+    height: 100px;
+    padding: 20px 0;
+}
+
+.sc_cont .sc_splist .end .end_footer .p1 {
+    padding-bottom: 20px;
+    color: #333333;
+}
+
+.sc_cont .sc_splist .end .end_footer p i {
+    color: #9C9C9B;
+}
+
+.sc_cont .sc_splist .end .end_footer p .fir {
+    padding-left: 10px;
+}
+
+.sc_cont .sc_splist .end .end_footer p .sec {
+    padding-left: 395px;
+    color: #434341;
+    font-size: 14px;
+}
+
+.sc_cont .sc_splist .end .end_footer p .thi {
+    padding-left: 140px;
+    color: #434341;
+    font-size: 14px;
+}
+
+.sc_cont .sc_splist .end .end_footer p .rebuy {
+    padding-left: 240px;
+    cursor: pointer;
+}
