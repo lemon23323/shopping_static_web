@@ -370,7 +370,8 @@
     border-bottom: 0;
 }
 
-.main .right .select .jiesuan .car {
+.main .right .select .jiesuan .car a {
+    display: inline-block;
     width: 145px;
     height: 45px;
     margin-left: 10px;
@@ -379,7 +380,6 @@
     text-align: center;
     font-size: 18px;
     color: #fff;
-    cursor: pointer;
 }
 
 /* introuduce模块 */
